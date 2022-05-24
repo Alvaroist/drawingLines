@@ -39,6 +39,7 @@ function reset()
 function keyPressed(evento)
 {
   var distance=10;
+  console.log(evento.keyCode);
   switch (evento.keyCode)
   {
     case arrowKey.UP:
