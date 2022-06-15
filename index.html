@@ -6,11 +6,19 @@
     <link rel="stylesheet" href="drawingLines.css">
   </head>
   <body>
-    <canvas width="300" height="300" id="areaCanvas"></canvas>
-    <p><strong>Move arrow keys</strong></p><img src="images/arrowkeys.png"/>
-    <span>
-      <input type="button" value="Reset" id="resetButton" />
-    </span>
+    <section id="aCanvas">
+      <canvas width="300" height="300" id="areaCanvas"></canvas>
+    </section>
+    <br></br>
+    <section id="keyboard">
+      <div><input type="image" name="arrowUp" src="images/up.png"/></div>
+      <div id="second_line_keys">
+        <input type="image" name="arrowLeft" src="images/left.png"/>
+        <input type="image" name="arrowDown" src="images/down.png"/>
+        <input type="image" name="arrowRight" src="images/right.png"/>
+      </div>
+      <input type="button" value="Reset" name="resetButton" />
+    </section>
     <script src="drawingLines.js"></script>
   </body>
 </html>

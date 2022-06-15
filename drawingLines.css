@@ -1,3 +1,21 @@
 canvas{
-    border: 1px solid #000000;
+    border-style: ridge;
+}
+
+#aCanvas{
+    display: flex;
+    justify-content: center;
+}
+
+#keyboard > div{
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+}
+#second_line_keys{
+    display: inline-block;
+}
+
+#second_line_keys input{
+    margin: 2px;
 }
