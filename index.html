@@ -2,23 +2,29 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drawing Lines</title>
     <link rel="stylesheet" href="drawingLines.css">
   </head>
   <body>
-    <section id="aCanvas">
-      <canvas width="300" height="300" id="areaCanvas"></canvas>
-    </section>
-    <br></br>
-    <section id="keyboard">
-      <div><input type="image" name="arrowUp" src="images/up.png"/></div>
-      <div id="second_line_keys">
-        <input type="image" name="arrowLeft" src="images/left.png"/>
-        <input type="image" name="arrowDown" src="images/down.png"/>
-        <input type="image" name="arrowRight" src="images/right.png"/>
-      </div>
-      <input type="button" value="Reset" name="resetButton" />
-    </section>
+    <div id="wrapper">
+      <section id="aCanvas">
+        <canvas width="300" height="300" id="areaCanvas"></canvas>
+      </section>
+      <section id="keyboard">
+        <div><input type="button" name="arrowUp" value="↑"/></div>
+        <div id="second-line-keys">
+          <input type="button" name="arrowLeft" value= "←"/>
+          <input type="button" name="arrowDown" value="↓"/>
+          <input type="button" name="arrowRight" value="→"/>
+        </div>
+        </br>
+        <div id="reset">
+          <input type="button" value="Reset" name="resetButton" />
+        </div>
+      </section>
+    </diV>
     <script src="drawingLines.js"></script>
   </body>
 </html>
