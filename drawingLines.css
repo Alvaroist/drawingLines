@@ -1,16 +1,20 @@
 #wrapper{
-    border: 2px solid black;
+    border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background-color: rgb(233, 237, 239);
+    border-radius: 20px;
 }
 
 #keyboard {
     width: 300px;
     height: 130px;
-    border: 1px solid black;
+    border: 1px ridge black;
     margin-bottom: 5px;
+    background-color: rgb(210, 216, 220);
+    border-radius: 30px;
 }
 
 #keyboard div{
@@ -18,8 +22,9 @@
 }
 
 Canvas{
-    border-style: ridge;
+    border: 4px ridge black;
     margin: 10px 5px;
+    background-color: rgb(255, 255, 255);
 }
 
 #reset input{
@@ -28,7 +33,7 @@ Canvas{
 
 #keyboard input{
     font-weight: bold;
-    font-size: larger;
+    font-size:x-large;
 }
 
 .arrowUp{
