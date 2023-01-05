@@ -1,53 +1,36 @@
-#second-line-keys #keyboard input{
-    font-size: 1.5em;
-    font-weight: 500;
-}
-
-input[value=Reset]{
-    font-size: medium;
-    font-weight: 550;
-}
-
-#aCanvas canvas{
-    border-style: ridge;
-}
-
-#keyboard > div{
-    margin: 2px;
-}
-
-#second_line_keys input{
-    margin: 2px;
-}
-
-#reset{
-    justify-content: center;
-    font-size: larger;
-}
-
-#wrapper section {
-    display: inline-block;
-}
-
-#wrapper {
+#wrapper{
+    border: 2px solid black;
     display: flex;
-    text-align: center;
-    height: 370px;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-#aCanvas {
-    width: 320px;
-    height: 310px;
-}
 #keyboard {
-    width: 190px;
-    height: 200px;
-    align-content: center;
+    width: 300px;
+    height: 130px;
+    border: 1px solid black;
+    margin-bottom: 5px;
 }
 
-input{
-    width: 50px;
-    height: 50px;
+#keyboard div{
+    text-align: center;
+}
+
+Canvas{
+    border-style: ridge;
+    margin: 10px 3px;
+}
+
+#reset input{
+    margin: 15px;
+}
+
+#keyboard input{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.arrowUp{
+    margin: 4px;
 }
